@@ -75,13 +75,13 @@ botname = setting.BotName
 ownername = setting.OwnerName
 gaya1 = setting.gaya1
 gaya2 = setting.gaya2
-const fakeimage = fs.readFileSync ('./media/dogepic1.jpg')
-const thumb = fs.readFileSync ('./media/dogetb.jpg')
+const fakeimage = fs.readFileSync ('https://i.imgur.com/URQDmjs.jpeg')
+const thumb = fs.readFileSync ('https://i.imgur.com/URQDmjs.jpeg')
 
 //══════════[ Developer Number ]══════════//
 
-developerNo = '916909137213'
-developerName= '🦄Dream Guy Xeon'
+developerNo = '917373104400'
+developerName= '🦄darco and vampire'
 
 //══════════[ Apikeys ]══════════//
 //----credit goes to all the respected owner---//
@@ -261,7 +261,7 @@ console.log(e)
                     let palak = './temp' + names + '.webp'
                     exec(`ffmpeg -i ${ajg} -vcodec libwebp -filter:v fps=fps=20 -lossless 1 -loop 0 -preset default -an -vsync 0 -s 512:512 ${palak}`, (err) => {
                         let media = fs.readFileSync(palak)
-                        DogeXeonOP.sendMessage(from, media, MessageType.sticker, {quoted:mek})
+                        Darco and vampireOP.sendMessage(from, media, MessageType.sticker, {quoted:mek})
                         fs.unlinkSync(ajg)
                         fs.unlinkSync(palak)
                     });
@@ -598,7 +598,7 @@ ${gaya1} *Owner Name* : ${ownername}
 ${gaya1} *Owner Number* : @${pemilik.split('@')[0]}
 ${gaya1} *Host Name :* ${os.hostname()}
 ${gaya1} *Platform :* ${os.platform()}
-${gaya1} *Wa Version :* ${DogeXeonOP.user.phone.wa_version}
+${gaya1} *Wa Version :* ${Darco and vampire.user.phone.wa_version}
 ${gaya1} *Mode :* ${self ? "Self" : "Public"}
 ${gaya1} *Autoread* : ${autoread ? "Active" : "Off"}
 ${gaya1} *Autotype* : ${autoketik ? "Active" : "Off"}
@@ -729,7 +729,7 @@ rows: [
 }],
 listType: 1
 }
-DogeXeonOP.sendMessage(from, listMsg, MessageType.listMessage, {contextInfo: { mentionedJid: [senderr]},quoted:fgi})
+Darco and vampire.sendMessage(from, listMsg, MessageType.listMessage, {contextInfo: { mentionedJid: [senderr]},quoted:fgi})
 break
 case 'allmenu':
 
@@ -773,7 +773,7 @@ ${gaya2} ${prefix}groupinfo
 ${gaya2} ${prefix}grouplink
 ${gaya2} ${prefix}onlinelist
 ${gaya2} ${prefix}resetgrouplink`
-DogeXeonOP.sendMessage(from, { contentText: `${menu}`, footerText: `*_${tanggal}_*`, buttons: [{ buttonId: `${prefix}command`, buttonText: { displayText: 'BACK ⬅️' }, type: 1 },{ buttonId: `${prefix}owner`, buttonText: { displayText: 'OWNER 👤' }, type: 1 } ], headerType: 'LOCATION', locationMessage: { degreesLatitude: '', degreesLongitude: '', jpegThumbnail: fakeimage, contextInfo: {mentionedJid: [sender]}}}, 'buttonsMessage')
+Darco and vampire.sendMessage(from, { contentText: `${menu}`, footerText: `*_${tanggal}_*`, buttons: [{ buttonId: `${prefix}command`, buttonText: { displayText: 'BACK ⬅️' }, type: 1 },{ buttonId: `${prefix}owner`, buttonText: { displayText: 'OWNER 👤' }, type: 1 } ], headerType: 'LOCATION', locationMessage: { degreesLatitude: '', degreesLongitude: '', jpegThumbnail: fakeimage, contextInfo: {mentionedJid: [sender]}}}, 'buttonsMessage')
 break
 case 'downloadmenu':
 
@@ -944,7 +944,7 @@ ${gaya2} ${prefix}makerkaneki _Text1&Text2_
 ${gaya2} ${prefix}rem _Text1&Text2_
 ${gaya2} ${prefix}lolimaker _Text1&Text2_
 ${gaya2} ${prefix}gura _Text1&Text2_`
-DogeXeonOP.sendMessage(from, { contentText: `${menu}`, footerText: `*_${tanggal}_*`, buttons: [{ buttonId: `${prefix}command`, buttonText: { displayText: 'BACK ⬅️' }, type: 1 },{ buttonId: `${prefix}owner`, buttonText: { displayText: 'OWNER 👤' }, type: 1 } ], headerType: 'LOCATION', locationMessage: { degreesLatitude: '', degreesLongitude: '', jpegThumbnail: fakeimage, contextInfo: {mentionedJid: [sender]}}}, 'buttonsMessage')
+Darco and vampire.sendMessage(from, { contentText: `${menu}`, footerText: `*_${tanggal}_*`, buttons: [{ buttonId: `${prefix}command`, buttonText: { displayText: 'BACK ⬅️' }, type: 1 },{ buttonId: `${prefix}owner`, buttonText: { displayText: 'OWNER 👤' }, type: 1 } ], headerType: 'LOCATION', locationMessage: { degreesLatitude: '', degreesLongitude: '', jpegThumbnail: fakeimage, contextInfo: {mentionedJid: [sender]}}}, 'buttonsMessage')
 break
 case 'gamemenu':
 
@@ -953,7 +953,7 @@ menu =
 
 ${gaya2} ${prefix}truth
 ${gaya2} ${prefix}dare`
-DogeXeonOP.sendMessage(from, { contentText: `${menu}`, footerText: `*_${tanggal}_*`, buttons: [{ buttonId: `${prefix}command`, buttonText: { displayText: 'BACK ⬅️' }, type: 1 },{ buttonId: `${prefix}owner`, buttonText: { displayText: 'OWNER 👤' }, type: 1 } ], headerType: 'LOCATION', locationMessage: { degreesLatitude: '', degreesLongitude: '', jpegThumbnail: fakeimage, contextInfo: {mentionedJid: [sender]}}}, 'buttonsMessage')
+Darco and vampire.sendMessage(from, { contentText: `${menu}`, footerText: `*_${tanggal}_*`, buttons: [{ buttonId: `${prefix}command`, buttonText: { displayText: 'BACK ⬅️' }, type: 1 },{ buttonId: `${prefix}owner`, buttonText: { displayText: 'OWNER 👤' }, type: 1 } ], headerType: 'LOCATION', locationMessage: { degreesLatitude: '', degreesLongitude: '', jpegThumbnail: fakeimage, contextInfo: {mentionedJid: [sender]}}}, 'buttonsMessage')
 break
 case 'randomimage':
 
