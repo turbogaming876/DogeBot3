@@ -1,6 +1,6 @@
 //pls give credit if you reupload 
 //or copy the codes
-//© 2022 Xeon Bot Inc. Doge Bot
+//© 2022 
 const {
     WAConnection,
     MessageType,
