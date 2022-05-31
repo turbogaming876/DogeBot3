@@ -1,8 +1,8 @@
 {
 "self": false,
-"autoread": false,
+"autoread": true,
 "autoketik": false,
-"autovn": false,
+"autovn": true,
 "OwnerNumber": "917373104400",
 "OwnerName": "Darco",
 "BotName": "Darco Bot",
